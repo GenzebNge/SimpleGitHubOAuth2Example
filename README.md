@@ -64,11 +64,9 @@ Authenticating with Google requires minor modifications. See the Google Authenti
 It is similar to the GitHub configuration. 
 
 The end points for authentication are as follows: 
-
+```
 security.oauth2.client.access-token-uri=https://accounts.google.com/o/oauth2/token
-
 security.oauth2.client.user-authorization-uri=https://accounts.google.com/o/oauth2/auth
-
 security.oauth2.resource.user-info-uri=https://www.googleapis.com/oauth2/v3/userinfo
-
 security.oauth2.client.scope=openid,email,profile
+```
