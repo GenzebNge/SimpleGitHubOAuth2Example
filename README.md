@@ -9,7 +9,24 @@ This should work for an OAuth application as well, if you create it on GitHub.
 Make sure your callback URL and your home page are the same, and both direct to a route in your application that you can use to re-direct your authorised requests. 
 I never got the callback url feature in the Application settings to work as expected - kept on getting an endless re-authorization loop. 
 
+### Set up your Spring Boot Application with the following Maven dependencies: 
+```	
+<dependency>
+	<groupId>org.webjars</groupId>
+	<artifactId>jquery</artifactId>
+	<version>2.1.1</version>
+</dependency>
 
+<dependency>
+	<groupId>org.webjars</groupId>
+	<artifactId>bootstrap</artifactId>
+	<version>3.2.0</version>
+</dependency>
+<dependency>
+	<groupId>org.webjars</groupId>
+	<artifactId>webjars-locator</artifactId>
+</dependency>
+```
 ### Put this in your application properties file: 
 There aren't enough good application.properties examples - they're mostly yaml. So here you are: 
 
