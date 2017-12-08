@@ -2,7 +2,7 @@
 
 An example that uses Github authentication to allow/deny access to a Spring Boot application
 
-This builds on the simple example from https://spring.io/guides/tutorials/spring-boot-oauth2/
+This builds on the *simple* example from https://spring.io/guides/tutorials/spring-boot-oauth2/
 
 
 ## Setting up 
