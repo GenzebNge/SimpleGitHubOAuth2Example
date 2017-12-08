@@ -1,4 +1,4 @@
-# GitHubOAuth2Example
+# SimpleGitHubOAuth2Example
 
 An example that uses Github authentication to allow/deny access to a Spring Boot application
 
